@@ -3,8 +3,10 @@ Here are some simple shaders for picom that give your setup an older look and fe
 If you use these, I would highly recommend adding exceptions for some applications as they can be a challenge to use, especially with the monochrome (2 color) shaders (especially the posterized one). If you choose the monochrome shaders, I would recommend the dithered version as the posturized version will overexpose your desktop and make it a usability nightmare. The other shaders (EGA, VGA, and 256 color) are fine though.
 
 To use them, set up your picom.conf:
-```backend = "glx";
-window-shader-fg = "(PATH)"```
+```
+backend = "glx";
+window-shader-fg = "(PATH)"
+```
 
 where PATH is the absolute path to the shader file. For instance, /home/user/Documents/ega.glsl.
 
